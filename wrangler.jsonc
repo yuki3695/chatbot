@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "chatbot",
+  "compatibility_date": "2026-04-08",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "field-risk-chatbot"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
