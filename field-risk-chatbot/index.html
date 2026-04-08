@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Field Risk Assessment Chatbot</title>
+  <link rel="stylesheet" href="style.css?v=3" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Field Risk Assessment Chatbot</h1>
+      <p>Prototype Web Chat Interface</p>
+    </header>
+
+    <main class="chat-container">
+      <div id="chatMessages" class="chat-messages"></div>
+
+      <div class="chat-input-area">
+        <textarea
+          id="symptomInput"
+          class="chat-textarea"
+          placeholder="Describe the symptoms you observed in the field..."
+          rows="4"
+        ></textarea>
+        <div class="chat-actions">
+          <button id="sendBtn" class="primary-btn">Analyze Symptoms</button>
+          <button id="resetBtn" class="secondary-btn">Reset</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
